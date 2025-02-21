@@ -41,3 +41,5 @@ def check_new_listings():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+if __name__ != "__main__":
+    application = app  # WSGI-Anwendung für gunicorn
