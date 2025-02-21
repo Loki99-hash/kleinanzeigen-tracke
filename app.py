@@ -8,9 +8,9 @@ app = Flask(__name__)
 SEEN_LISTINGS = set()
 
 # E-Mail-Konfiguration (ändert sich in Schritt 4)
-EMAIL_SENDER = "deine.email@gmail.com"
-EMAIL_PASSWORD = "dein_app_passwort"  # Platzhalter
-EMAIL_RECEIVER = "dein_empfänger@email.com"
+EMAIL_SENDER = "kindlinglorenz@gmail.com"
+EMAIL_PASSWORD = "xzwo njdw qydz jeyi"  # Platzhalter
+EMAIL_RECEIVER = "kindlinglorenz@gmail.com"
 
 def send_notification(title, price):
     msg = MIMEText(f"Neues Listing: {title} für {price}")
